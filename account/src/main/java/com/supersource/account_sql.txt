@@ -1,0 +1,4 @@
+use `salary`
+select *from account;
+alter table `account` add transMoney float default 0 after userMoney;//添加一列
+alter table `account` drop transMoney ;//删除一列
